@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aquamarine;
+  padding: 0px 15px;
+  height: 60px;
+}
+
+.header .logo {
+}
+
+.header nav {
+  display: flex;
+  gap: 50px;
+}
+
+.header nav ul {
+  display: flex;
+  gap: 10px;
+}
+
+.header nav ul li {
+}
+
+.header nav .auth {
+  display: flex;
+  gap: 20px;
+}
