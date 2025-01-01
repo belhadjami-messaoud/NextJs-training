@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import SearchInput from "../component/SearchInput";
 
 async function ProductsPage() {
   const response = await fetch(`https://dummyjson.com/products`);
@@ -10,6 +11,7 @@ async function ProductsPage() {
   const { products } = await response.json();
   return (
     <div>
+      <SearchInput />
       {products.map((p) => {
         return (
           <div key={p.id}>
